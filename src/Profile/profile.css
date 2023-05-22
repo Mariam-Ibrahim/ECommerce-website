@@ -1,0 +1,7 @@
+.Profile-bg{
+    height: 88vh;
+    background-image: url(../assets/light-patten.svg);
+}
+.profile-title{
+    font-size: 3rem;
+}
