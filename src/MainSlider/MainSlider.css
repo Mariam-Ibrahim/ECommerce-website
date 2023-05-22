@@ -1,0 +1,16 @@
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+.heightone{height: 200px; background: #000;}
+.heighttwo{height: 100px;}
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+    .heightone{height: 200px;}
+    .heighttwo{height: 150px;}
+}
+.mo{
+    background-color: aquamarine;
+}

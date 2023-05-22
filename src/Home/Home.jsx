@@ -37,9 +37,9 @@ $(".myspinner").fadeOut(2000)
     <div className='container mt-5'>
       <MainSlider/>
       <Categoryslider/>
-      <div className='row g-3 mydiv mt-5'>
+      <div className='row g-2 mydiv mt-0'>
         {allProductsList.map((el,i)=>{
-          return  <div className='col-lg-2 col-md-6 col-sm-6 ' key={i}>
+          return  <div className='col-lg-2 col-md-4 col-sm-4 col-xs-4' key={i}>
                     <Link to={'/productdetails/' +el.id} >
           <div className='item p-3 '>
             <img src={el.imageCover} alt="item image" className='w-100 imgg' />

@@ -73,7 +73,7 @@ console.log("mmmm success");
 
 <div className='w-100  py-5  d-flex justify-content-center align-items-center mybg'>
 
-    {flag?<form className='col-3 py-5 border border-1 border-success rounded px-3' onSubmit={formik2.handleSubmit}>
+    {flag?<form className='col-lg-4 col-md-12 col-sm-12 py-5 border border-1 border-success rounded px-3' onSubmit={formik2.handleSubmit}>
     
    <div className='col-4'>
    <label className='mb-2' >Enter Code:</label>

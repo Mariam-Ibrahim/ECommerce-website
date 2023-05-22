@@ -14,7 +14,7 @@ export default function Register() {
     let[loadingBtn,setLoadingBtn]=useState(false)
     let Navigate =useNavigate()
 let validate=yup.object({
-    name:yup.string().required().matches(/^[A-Z][a-zA-Z0-9 _]{2,7}[A-Z][a-zA-Z0-9 _]{2,7}$/,"First Name must start with Uppercase letter , not less than 2 characters"),
+    name:yup.string().required().matches(/^[A-Z][a-zA-Z0-9 _]{1,7}[A-Z][a-zA-Z0-9 _]{1,7}$/,"please , enter your first and last name , start with an uppercase character , you can only use _ as a special character"),
 
     email:yup.string().required().email("at least 5 characters , and you can only use [Upper/Lower cases, Numbers ,- , _] then @example.com").matches(/^[a-zA-Z0-9_-]{5,20}@[a-z]{3,10}\.(com)$/,"emails has to contain at least 5 characters , and you can only use [Upper/Lower cases, Numbers ,- , _]"),
     
@@ -74,7 +74,7 @@ async function sendObjData(objData){
 
 
        
-        <form className='col-4 py-5 border border-1 border-success rounded px-3' onSubmit={formik.handleSubmit}>
+        <form className='col-lg-4 col-md-12 col-sm-12 py-5 border border-1 border-success rounded px-3' onSubmit={formik.handleSubmit}>
         <h2 className='text-center '>Register Now</h2>
 <div>
 <label htmlFor=""> name:</label>

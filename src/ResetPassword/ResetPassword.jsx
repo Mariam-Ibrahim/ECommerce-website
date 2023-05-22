@@ -40,7 +40,7 @@ export default function ResetPassword() {
 
   return (
     <div className='w-100 py-5  d-flex justify-content-center align-items-center mybg'>
-<form className='col-3 py-5 border border-1 border-success rounded px-3' onSubmit={formik2.handleSubmit}>
+<form className='col-lg-4 col-md-12 col-sm-12 py-5 border border-1 border-success rounded px-3' onSubmit={formik2.handleSubmit}>
     
 <label className='mb-2' >Email:</label>
      <input type="email" name='email' id='email' className='form-control mb-2 ' onChange={formik2.handleChange}  />

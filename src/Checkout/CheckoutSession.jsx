@@ -29,7 +29,7 @@ export default function CheckoutSession() {
   return (
     <div className=' w-100 h-100 py-5 d-flex justify-content-center align-items-center rigesterbg'>
        
-        <form className='col-4 py-5 border border-1 border-success rounded px-3' onSubmit={formik.handleSubmit}>
+        <form className='col-lg-4 col-md-12 col-sm-12 py-5 border border-1 border-success rounded px-3' onSubmit={formik.handleSubmit}>
         <h2 className='text-center '>Get your order now:</h2>
 
 

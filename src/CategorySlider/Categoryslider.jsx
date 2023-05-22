@@ -17,9 +17,9 @@ useEffect(()=>{
         // console.log(resp.data.data);
 
     }
-  return (<OwlCarousel className='owl-theme' autoplay={true} loop items={7} >
+  return (<OwlCarousel className='owl-theme p-2' dots={false} autoplay={true} loop items={7} >
 {CategoriesList.map((el,i)=>{
-   return <img src={el.image} alt="" className='w-100' height={200} key={i}/>
+   return <img src={el.image} alt="" className='w-100 rounded-circle py-5 ' height={250} key={i}/>
 })}
 
 
